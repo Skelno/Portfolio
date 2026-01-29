@@ -12,12 +12,13 @@ body{
     background-color: gray;
 }
 .Navbar{
+    padding-left: 30px;
     width: 100%;
     height: var(--navbar-height);
     background-color: rgb(70, 64, 121);
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 .Navbar div{
     display: flex;
@@ -25,7 +26,32 @@ body{
     justify-content: space-evenly;
 }
 .Navbar div *{
-    padding: 0px 8px;
-    margin: 0px 10px;
+    padding: 0px 6px;
+    margin: 0px 4px;
     line-height: var(--navbar-height);
+}
+
+.Name{
+}
+
+.Navbar a{
+    padding: 1px 6px;
+    background-color: rgb(70, 64, 121);
+    text-decoration: none;
+    color: black;
+}
+
+.Navbar a:hover{
+    color: rgb(27, 27, 27);
+    padding-top: 5px;
+}
+
+.Socials a{
+    font-size: 2rem;
+    padding: 0px 5px;
+    margin: 0px 2px;
+}
+.Socials i {
+    padding: 0px 0px;
+    margin: 0px 0px;
 }
